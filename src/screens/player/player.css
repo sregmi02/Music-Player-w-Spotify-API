@@ -1,0 +1,68 @@
+.left-player-body{
+    width: 80%;
+    height: 100%;
+}
+.right-player-body{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction : column;
+    justify-content: space-between;
+
+}
+.feed-page-title{
+    height: 4%;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    color:  #c8c2d3;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 2%;
+    
+}
+.home{
+    align-items: right;
+}
+
+.library-btn{
+    color: rgb(179, 147, 213);
+    margin-right: 3%;
+}
+
+.library-btn:hover{
+    transform: scale(1.1);
+    transition: ease;
+}
+.left-feed-page-title{
+    width: 30%;
+}
+.feed{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+}
+.app-name{
+    font-weight: lighter;
+    font-size: 30px;
+    width: 50%;
+}
+.image-pro{
+    width: 30%;
+    margin-bottom: 10%;
+}
+.library{
+    text-align: right;
+}
+.library-page-title{
+    height: 4%;
+    font-size: 20px;
+    font-weight: bolder;
+    color:  #c8c2d3;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    
+}

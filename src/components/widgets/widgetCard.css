@@ -1,0 +1,31 @@
+.widget-card-body {
+    position: relative;
+    width: 20%;
+    height: 80%;
+    border-radius: 5px;
+    background: rgb(203, 185, 207, 0.1);;
+    padding: 1%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    overflow-y: scroll;
+  }
+  .widget-card-body::-webkit-scrollbar{
+    display: none;
+}
+  
+  .widgetcard-body:hover {
+    transform: scale(1.05);
+  }
+  
+  .widget-title {
+    font-size: 20px;
+    font-weight: 800;
+    color:  #c8c2d3;
+  }
+  
+  
+  .widget-card-body:hover {
+    background: rgb(203, 185, 207, 0.15);
+    transition: ease 0.5s;
+  }
+  

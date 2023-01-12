@@ -1,0 +1,52 @@
+.album-info-card{
+        margin-top: 20px;
+        width: 80%;
+}
+.album-info-card p{
+        margin: 0px auto !important;
+}
+
+.album-name-container{
+        width: 100%;
+        font-size: 13px;
+        font-weight: 500;
+        color:  #c8c2d3;
+        text-align: left;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        line-clamp: 1;
+}
+.album-info{
+        font-size: 13px;
+        font-weight: 500;
+        color:  #c8c2d3a7;
+        margin: 1% 1%;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        text-align: left;
+
+}
+
+.song-title{
+        overflow-x: hidden;
+        line-clamp: 2;
+}
+.album-release{
+        font-size: 13px;
+        font-weight: 500;
+        color:  #c8c2d3;
+        overflow: hidden;
+        text-align: center;
+        margin: 10px 0px 10px;
+        text-overflow: ellipsis; 
+}
+
+.song-title-container{
+        font-size: 18px;
+        font-weight: 800;
+        color:  #c8c2d3;
+        overflow: hidden;
+        text-align: left;
+        margin: 1% 1%;
+        text-overflow: ellipsis; 
+}

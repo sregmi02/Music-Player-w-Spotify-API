@@ -1,0 +1,89 @@
+.library-body{
+    width: 94%;
+    height: 80%;
+    padding: 0% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: space-between;
+}
+.library-body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.page-title{
+    height: 1%;
+    font-size: 30px;
+    font-weight: bolder;
+    color:  #c8c2d3;
+    justify-content: center;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+    margin-top: 1.6%;
+
+}
+.playlist-card{
+    position: relative;
+    width: 15%;
+    height: 45%;
+    border-radius: 5px;
+    background-color: #161121;
+    padding: 1%;
+    margin-bottom: 2%;
+    background: rgba(203, 185, 207, 0.07);
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+.left-page-title{
+    width: 24%;
+}
+
+.playlist-card:hover{
+    transform: scale(1.02);
+    background: rgb(203, 185, 207, 0.1);
+
+}
+
+.playlist-image{
+    width : 100%;
+    aspect-ratio: 1;
+    border-radius: 5px;
+    padding: 0.25%;
+}
+.playlist-name{
+font-size: 16px;
+font-weight: 750;
+color:  #c8c2d3;
+margin: 10px 0px 10px;
+display: -webkit-box;
+overflow: hidden;
+text-overflow: ellipsis;
+-webkit-line-clamp: 2;
+line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+
+.playlist-tracks{
+    font-size: 12px;
+    font-weight: 500;
+    color: #c8c2d395;
+    margin-top: 10px;
+
+}
+
+.playlist-fade{
+    width: 85%;
+    height: 35%;
+    border-radius: 5px;
+    padding: 8%;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease;
+}

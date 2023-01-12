@@ -1,0 +1,17 @@
+.songCard-body {
+    width: 94%;
+    height: 51.5%;
+    margin: 3%;
+    margin-top: 2%;
+    background-color: rgb(203, 185, 207, 0.1);
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.songCard-body:hover{
+    background: rgb(203, 185, 207, 0.15);
+    transition: ease 0.5s;
+}
